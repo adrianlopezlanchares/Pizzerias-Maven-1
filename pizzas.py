@@ -86,7 +86,7 @@ def main():
         df = etl()
     except:
         print("\nError al leer los datos. Falta algun archivo")
-        print("Archivos necesarios:\n\t- practica1-pizzas.csv\n\t- practica1-pizza_types.csv\n\t- practica1-orders.csv\n\t- practica1-order_details.csv")
+        print("Archivos necesarios:\n\t- pizzas.csv\n\t- pizza_types.csv\n\t- orders.csv\n\t- order_details.csv")
         return
 
 
